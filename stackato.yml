@@ -1,0 +1,8 @@
+name: stackato-webrtc
+framework:
+  type: node
+
+mem: 256M
+
+processes:
+  web: ./node_modules/coffee-script/bin/coffee app.coffee
